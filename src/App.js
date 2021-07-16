@@ -16,7 +16,7 @@ function App() {
         </h1>
       </header>
       <body>
-        <iframe src="https://discord.com/widget?id=865431663638347787&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        <iframe class="discord" src="https://discord.com/widget?id=865431663638347787&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
       </body>
     </div>
   );
