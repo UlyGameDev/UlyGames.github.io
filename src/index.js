@@ -2,12 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import logo from './logo.svg';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <header>
+    <link rel="icon" href={logo} />
+    <title>UlyGames</title>
+    <meta property="og:title" content="UlyGames" />
+    <meta property="og:description" content="Homepage for UlyGames" />
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </header>,
   document.getElementById('root')
 );
 
