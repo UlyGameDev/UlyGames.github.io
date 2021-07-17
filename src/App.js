@@ -14,7 +14,6 @@ function App() {
         <h1>
           Welcome to UlyGames!
         </h1>
-        <iframe class="discord" src="https://e.widgetbot.io/channels/2865431663638347787/865804908917424138" height="600" width="800"></iframe>
       </header>
       <body>
       </body>
