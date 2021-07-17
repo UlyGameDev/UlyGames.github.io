@@ -1,66 +1,124 @@
-.App {
-  text-align: left;
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 200%;
+  background-color: #282c34;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white;
+  text-align: center;
+  font-size: 6vw;
+}
+
+.logo {
+  width: 20vw;
+  margin-top: -5vw;
+
+  margin-left: 42vw;
+  animation-name: spin;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.secF {
+  padding-top: 3vw;
+  margin-left: -2vw;
+  margin-right: -3vw;
+  margin-top: -4vw;
+  width: 102vw;
+  height: 100vw;
+}
+
+iframe {
+  margin-left: 5vw;
   float: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-size: 5vw;
+  color: rgb(192, 211, 235);
+  text-align: center;
+  width: 40%;
+  margin-left: 48vw;
+  margin-top: -23vw;
+}
+nav {
+  background-color: #363636;
+}
+nav a {
+  display: inline-block;
+  border-radius: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown:hover .dropbtn {
+  color: #ababab;
+}
+.dropbtn {
+  text-decoration: none;
+  margin: 0.25vw;
+  background-color: #363636;
+  color: white;
+  padding: 2vw;
+  font-size: 2vw;
+  border: none;
+  cursor: pointer;
+  font-family: Georgia, Times, Times New Roman, serif;
+  transition: background-color 0.5s;
+  transition: color 0.35s;
+}
+
+a {
+  background-color: #888;
+  text-align: center;
+  width: 5vw;
+  display: inline-block;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.contsec {
+  margin-top: 4vw;
 }
 
-@keyframes App-logo-spin {
+h4 {
+  font-size: 1.6vw;
+  width: 40%;
+  text-align: center;
+  color: rgb(223, 223, 223);
+  float: right;
+  margin-right: 22vw;
+  margin-top: -6vw;
+}
+
+.txtr {
+  float: right;
+  margin-right: -17vw;
+  margin-top: -6vw;
+}
+
+::-webkit-scrollbar {
+  width: 0.7vw;
+}
+
+::-webkit-scrollbar-track {
+  background-color: lavender;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+
+@keyframes spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
-@keyframes discord {
-	0% {height:70px; width:250px;}
-	 100% {height:500px;width:350px;}
-}
-@keyframes discord-c {
-	0% {height:500px;width:350px;}
-    100% {height:70px; width:250px;}
-}
-.discord {
-	animation-name: discord-c;
-	animation-duration: 2s;
-	animation-play-state: pause;
-	float:left;
-    height:70px;
-	width:250px;
-   
-	
-}
-
-.discord:hover {
-	height:500px;
-	width:350px;
-	float:left;
-	animation-name: discord;
-	animation-duration: 2s;
-	animation-play-state: pause;
 }
