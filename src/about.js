@@ -1,5 +1,5 @@
 import './App.css';
-function AboutP() {
+function About() {
     return (
         <div>
             <p>~~content content~~</p>
@@ -8,4 +8,4 @@ function AboutP() {
     );
 }
 
-export default AboutP;
+export default About;
